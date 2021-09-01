@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25B135512D486F07F2544B4F /* Pods_RendaTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33E66759FD240A00BB5FA195 /* Pods_RendaTest.framework */; };
+		5167485933E606CE0F956128 /* Pods_RendaTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15EE79BA423E8C9F5E5B29F8 /* Pods_RendaTestTests.framework */; };
+		EAB4873366ED6B5AB49286F5 /* Pods_RendaTest_RendaTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90E11D660FECCE486849E848 /* Pods_RendaTest_RendaTestUITests.framework */; };
 		F6BCCE9026DC8231001E6278 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BCCE8F26DC8231001E6278 /* AppDelegate.swift */; };
 		F6BCCE9226DC8231001E6278 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BCCE9126DC8231001E6278 /* SceneDelegate.swift */; };
 		F6BCCE9426DC8231001E6278 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BCCE9326DC8231001E6278 /* ViewController.swift */; };
@@ -15,6 +18,8 @@
 		F6BCCE9C26DC8236001E6278 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6BCCE9A26DC8236001E6278 /* LaunchScreen.storyboard */; };
 		F6BCCEA726DC8237001E6278 /* RendaTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BCCEA626DC8237001E6278 /* RendaTestTests.swift */; };
 		F6BCCEB226DC8237001E6278 /* RendaTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BCCEB126DC8237001E6278 /* RendaTestUITests.swift */; };
+		F6DFAA4126DEFC1C0028B5B7 /* RendaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DFAA4026DEFC1C0028B5B7 /* RendaViewController.swift */; };
+		F6DFAA4326DEFC280028B5B7 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DFAA4226DEFC280028B5B7 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15EE79BA423E8C9F5E5B29F8 /* Pods_RendaTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RendaTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C1B165C209F893C8AD72F8 /* Pods-RendaTest-RendaTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RendaTest-RendaTestUITests.release.xcconfig"; path = "Target Support Files/Pods-RendaTest-RendaTestUITests/Pods-RendaTest-RendaTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2BE5C0485D394886F0A1D6E8 /* Pods-RendaTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RendaTest.release.xcconfig"; path = "Target Support Files/Pods-RendaTest/Pods-RendaTest.release.xcconfig"; sourceTree = "<group>"; };
+		3000DDF9C4D13069DF657007 /* Pods-RendaTest-RendaTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RendaTest-RendaTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-RendaTest-RendaTestUITests/Pods-RendaTest-RendaTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		33E66759FD240A00BB5FA195 /* Pods_RendaTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RendaTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63BE48B341B860877DF28E86 /* Pods-RendaTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RendaTestTests.release.xcconfig"; path = "Target Support Files/Pods-RendaTestTests/Pods-RendaTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		8A0B2E5BC8AE5B1B1C49DFC3 /* Pods-RendaTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RendaTest.debug.xcconfig"; path = "Target Support Files/Pods-RendaTest/Pods-RendaTest.debug.xcconfig"; sourceTree = "<group>"; };
+		90E11D660FECCE486849E848 /* Pods_RendaTest_RendaTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RendaTest_RendaTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE7BF4C9A721068261F28EBB /* Pods-RendaTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RendaTestTests.debug.xcconfig"; path = "Target Support Files/Pods-RendaTestTests/Pods-RendaTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F6BCCE8C26DC8231001E6278 /* RendaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RendaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6BCCE8F26DC8231001E6278 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6BCCE9126DC8231001E6278 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +63,8 @@
 		F6BCCEAD26DC8237001E6278 /* RendaTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RendaTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6BCCEB126DC8237001E6278 /* RendaTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RendaTestUITests.swift; sourceTree = "<group>"; };
 		F6BCCEB326DC8237001E6278 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6DFAA4026DEFC1C0028B5B7 /* RendaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RendaViewController.swift; sourceTree = "<group>"; };
+		F6DFAA4226DEFC280028B5B7 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25B135512D486F07F2544B4F /* Pods_RendaTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5167485933E606CE0F956128 /* Pods_RendaTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +88,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAB4873366ED6B5AB49286F5 /* Pods_RendaTest_RendaTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26E3F8AFDD140E7B3A2382E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33E66759FD240A00BB5FA195 /* Pods_RendaTest.framework */,
+				90E11D660FECCE486849E848 /* Pods_RendaTest_RendaTestUITests.framework */,
+				15EE79BA423E8C9F5E5B29F8 /* Pods_RendaTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6AD752563824047778107949 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A0B2E5BC8AE5B1B1C49DFC3 /* Pods-RendaTest.debug.xcconfig */,
+				2BE5C0485D394886F0A1D6E8 /* Pods-RendaTest.release.xcconfig */,
+				3000DDF9C4D13069DF657007 /* Pods-RendaTest-RendaTestUITests.debug.xcconfig */,
+				18C1B165C209F893C8AD72F8 /* Pods-RendaTest-RendaTestUITests.release.xcconfig */,
+				CE7BF4C9A721068261F28EBB /* Pods-RendaTestTests.debug.xcconfig */,
+				63BE48B341B860877DF28E86 /* Pods-RendaTestTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F6BCCE8326DC8231001E6278 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +126,8 @@
 				F6BCCEA526DC8237001E6278 /* RendaTestTests */,
 				F6BCCEB026DC8237001E6278 /* RendaTestUITests */,
 				F6BCCE8D26DC8231001E6278 /* Products */,
+				6AD752563824047778107949 /* Pods */,
+				26E3F8AFDD140E7B3A2382E4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +151,8 @@
 				F6BCCE9826DC8236001E6278 /* Assets.xcassets */,
 				F6BCCE9A26DC8236001E6278 /* LaunchScreen.storyboard */,
 				F6BCCE9D26DC8236001E6278 /* Info.plist */,
+				F6DFAA4026DEFC1C0028B5B7 /* RendaViewController.swift */,
+				F6DFAA4226DEFC280028B5B7 /* ResultViewController.swift */,
 			);
 			path = RendaTest;
 			sourceTree = "<group>";
@@ -135,9 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F6BCCEB626DC8237001E6278 /* Build configuration list for PBXNativeTarget "RendaTest" */;
 			buildPhases = (
+				D7B9A6C184CBC83BF8A5AD15 /* [CP] Check Pods Manifest.lock */,
 				F6BCCE8826DC8231001E6278 /* Sources */,
 				F6BCCE8926DC8231001E6278 /* Frameworks */,
 				F6BCCE8A26DC8231001E6278 /* Resources */,
+				1CC156A6FBB8D5239DCC7352 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +201,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F6BCCEB926DC8237001E6278 /* Build configuration list for PBXNativeTarget "RendaTestTests" */;
 			buildPhases = (
+				3DF57AEE12CCD1F4C5F16EC8 /* [CP] Check Pods Manifest.lock */,
 				F6BCCE9E26DC8237001E6278 /* Sources */,
 				F6BCCE9F26DC8237001E6278 /* Frameworks */,
 				F6BCCEA026DC8237001E6278 /* Resources */,
@@ -170,9 +220,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F6BCCEBC26DC8237001E6278 /* Build configuration list for PBXNativeTarget "RendaTestUITests" */;
 			buildPhases = (
+				D8E840AA5C1D32581698DFE0 /* [CP] Check Pods Manifest.lock */,
 				F6BCCEA926DC8237001E6278 /* Sources */,
 				F6BCCEAA26DC8237001E6278 /* Frameworks */,
 				F6BCCEAB26DC8237001E6278 /* Resources */,
+				896DA936A8AF118B38C882C0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,12 +305,117 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1CC156A6FBB8D5239DCC7352 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RendaTest/Pods-RendaTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RendaTest/Pods-RendaTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RendaTest/Pods-RendaTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DF57AEE12CCD1F4C5F16EC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RendaTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		896DA936A8AF118B38C882C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RendaTest-RendaTestUITests/Pods-RendaTest-RendaTestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RendaTest-RendaTestUITests/Pods-RendaTest-RendaTestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RendaTest-RendaTestUITests/Pods-RendaTest-RendaTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7B9A6C184CBC83BF8A5AD15 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RendaTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8E840AA5C1D32581698DFE0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RendaTest-RendaTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F6BCCE8826DC8231001E6278 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6DFAA4326DEFC280028B5B7 /* ResultViewController.swift in Sources */,
 				F6BCCE9426DC8231001E6278 /* ViewController.swift in Sources */,
+				F6DFAA4126DEFC1C0028B5B7 /* RendaViewController.swift in Sources */,
 				F6BCCE9026DC8231001E6278 /* AppDelegate.swift in Sources */,
 				F6BCCE9226DC8231001E6278 /* SceneDelegate.swift in Sources */,
 			);
@@ -433,6 +590,7 @@
 		};
 		F6BCCEB726DC8237001E6278 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A0B2E5BC8AE5B1B1C49DFC3 /* Pods-RendaTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +610,7 @@
 		};
 		F6BCCEB826DC8237001E6278 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BE5C0485D394886F0A1D6E8 /* Pods-RendaTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +630,7 @@
 		};
 		F6BCCEBA26DC8237001E6278 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE7BF4C9A721068261F28EBB /* Pods-RendaTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +653,7 @@
 		};
 		F6BCCEBB26DC8237001E6278 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63BE48B341B860877DF28E86 /* Pods-RendaTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +676,7 @@
 		};
 		F6BCCEBD26DC8237001E6278 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3000DDF9C4D13069DF657007 /* Pods-RendaTest-RendaTestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +697,7 @@
 		};
 		F6BCCEBE26DC8237001E6278 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18C1B165C209F893C8AD72F8 /* Pods-RendaTest-RendaTestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
